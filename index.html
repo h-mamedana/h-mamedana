@@ -8,6 +8,7 @@
         <link rel="apple-touch-icon" href="image/aticon.png">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/common.css"> 
+        <link rel="stylesheet" href="css/common-res.css"> 
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/index-res.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +20,7 @@
     <!-- ローディング画面 -->
     <div id="loading">
         <div class="loader"></div>
-        <img src="image/aticon.png">
+        <img src="image/mameicon.png" width="60px">
     </div>
 
     <script type="text/javascript" src="js/loading.js"></script>
@@ -38,7 +39,23 @@
                     <a href="contact.html" class="header-right__contact">Contact</a>
                 </div>
                 <div class="sp--header-right">
-
+                    <div class="hamburger-menu">
+                        <input type="checkbox" id="menu-btn-check">
+                        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                        <div class="menu-content">
+                            <ul>
+                                <li>
+                                    <a href="#">Bio</a>
+                                </li>
+                                <li>
+                                    <a href="#">Works</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -131,7 +148,7 @@
                 </div>
                 <div class="wrapper blog-wrapper">
                     <div class="container">
-                        <p class="title">note、書いてます。</p>
+                        <p class="title">note、<br class="spbr">書いてます。</p>
                         <div class="blog-top">
                             <p>ぜひご覧ください。<br> 現在のおすすめ記事はこちら</p>
                         </div>
@@ -144,7 +161,7 @@
         </main>
         </body>
         <footer>
-                <p>&copy; 2022 MAMEDANA HARUTO.</p>
+                <p>&copy; 2022 <br class="spbr">MAMEDANA HARUTO.</p>
         </footer>    
     </body>
 </html>
