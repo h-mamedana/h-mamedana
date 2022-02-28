@@ -1,0 +1,29 @@
+.news-wrapper {
+    margin: 95px 30px 30px 30px;
+    height: 800px;
+}
+
+.news {
+    padding: 100px 0;
+    margin: auto;
+    max-width: 800px;
+}
+
+.title {
+    font-size: 35px;
+    padding-bottom: 5px;
+    border-bottom: black;
+    border-bottom: 1px;
+    border-style: solid;
+}
+
+.day {
+    float: right;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.contents {
+    margin-top: 50px;
+    font-size: 18px;
+}
