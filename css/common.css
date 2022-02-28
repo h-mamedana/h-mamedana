@@ -63,6 +63,9 @@ header {
     opacity: 0.8;
     transition: 0.15s;
 }
+.sp--header-right {
+    display: none;
+}
 
 .wrapper {
     background-color: rgba(230, 245, 230, 0.89);

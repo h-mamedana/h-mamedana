@@ -106,7 +106,6 @@
     height: 40px;
     width: 240px;
     margin: 20px 15px;
-    margin-left: auto;
     padding-top: 5.5px;
     border-radius: 10px;
     text-align: center;
@@ -166,7 +165,9 @@
     display: inline-block;
 }
 
-
+.spbr {
+    display: none;
+}
 .blog-wrapper {
     width: 50%;
     margin: 0 30px 30px 15px;
