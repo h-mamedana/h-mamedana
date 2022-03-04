@@ -3,9 +3,15 @@
     .flex {
         display: block;
     }
+    .top-wrapper {
+        margin: 85px 20px 20px 20px;
+    }
     .news-wrapper, .blog-wrapper {
-        margin: 0 30px 30px 30px;
+        margin: 0 20px 20px 20px;
         width: auto; 
+    }
+    .sns-wrapper {
+        margin: 0 20px 30px 20px;
     }
     .blog-recommend {
         height: 420px;

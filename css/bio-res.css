@@ -2,6 +2,7 @@
 @media all and (max-width: 1000px) {
     .prof-wrapper {
         height: auto;
+        margin: 85px 20px 20px 20px;
     }
     .prof {
         padding: 20px 0;
@@ -24,6 +25,9 @@
     }
     .tbr {
         display: block;
+    }
+    .bio-wrapper {
+        margin: 20px;
     }
 }
 

@@ -1,5 +1,9 @@
 /*for tablet*/
-
+@media all and (max-width: 1000px) {
+    .contact-wrapper {
+    margin: 85px 20px 20px 20px;
+    }
+}
 /*for smartphone*/
 @media all and (max-width: 670px) {
     .contact-wrapper {
