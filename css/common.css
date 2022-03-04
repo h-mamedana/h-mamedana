@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 100%/*1170px*/;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;    
 }
@@ -72,6 +72,10 @@ header {
     border-radius: 10px;
     
     /*padding: 180px, 0, 100px, 0;*/
+}
+
+.spbr {
+    display: none;
 }
 
 footer {

@@ -1,0 +1,26 @@
+/*for tablet*/
+@media all and (max-width: 1000px) {
+    .works-top {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .works {
+        max-width: 500px;
+        width: 80%;
+    }
+}
+
+/*for smartphone*/
+@media all and (max-width: 670px) {
+    .top-wrapper {
+        margin: 75px 10px 10px 10px;
+    }
+    .works-wrapper {
+        margin: 10px;
+        padding: 30px 0;
+    }
+    .ad {
+        margin-bottom: 170px;
+    }
+}

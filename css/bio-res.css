@@ -1,0 +1,52 @@
+/*for tablet*/
+@media all and (max-width: 1000px) {
+    .prof-wrapper {
+        height: auto;
+    }
+    .prof {
+        padding: 20px 0;
+    }
+    .prof-left {
+        display: block;
+        max-width: 250px;
+        margin: auto;
+    }
+    .prof-left img {
+        margin: auto;
+        max-width: 250px;
+        width: 100%;
+        max-height: 250px;
+        height: 100%;
+    }
+    .prof-right {
+        display: block;
+        padding: 30px 30px 0 30px;
+    }
+    .tbr {
+        display: block;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .prof-right h3 {
+        font-size: 32px;
+    }
+    .prof-wrapper {
+        margin: 75px 10px 10px 10px;
+    }
+    .bio-wrapper {
+        margin: 10px;
+    }
+    .prof-right p {
+        font-size: 18px;
+    }
+    .prof-right {
+        padding: 20px 15px 0 15px;
+    }
+    .bio-wrapper h3 {
+        font-size: 32px;
+    }
+    .timeline-list-item .contentA, .timeline-list-item .contentB {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,14 @@
+/*for tablet*/
+@media all and (max-width: 1000px) {
+}
+
+/*for smartphone*/
+@media all and (max-width: 1000px) {
+    .news-wrapper {
+        margin: 75px 10px 10px 10px;
+        height: 800px;
+    }
+    .news {
+        max-width: 500px;
+    }
+}

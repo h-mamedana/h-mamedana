@@ -2,12 +2,15 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>豆棚陽斗のホームページ</title>
         <link rel="icon" href="image/favicon.ico">
         <link rel="apple-touch-icon" href="image/aticon.png">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/common.css"> 
+        <link rel="stylesheet" href="css/common-res.css"> 
         <link rel="stylesheet" href="css/works.css">
+        <link rel="stylesheet" href="css/works-res.css"> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
@@ -26,21 +29,59 @@
                     <a href="works.html" class="header-right__works">Works</a>
                     <a href="contact.html" class="header-right__contact">Contact</a>
                 </div>
+                <div class="sp--header-right">
+                    <div class="hamburger-menu">
+                        <input type="checkbox" id="menu-btn-check">
+                        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                        <div class="menu-content">
+                            <ul>
+                                <li>
+                                    <a href="bio.html">Bio</a>
+                                </li>
+                                <li>
+                                    <a href="works.html">Works</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
         <main>
+            <div class="wrapper top-wrapper">
+                <div class="container">
+                    <div class="works-top">
+                        <a href="https://www.youtube.com/channel/UCfJckRQCVDM2iJov3Nf7NBg" class="btn"><span class="fa fa-youtube"></span> YouTubeへ</a>
+                        <h3>一部作品はYouTubeでご覧いただけます</h3>
+                    </div>
+                </div>
+            </div>
             <div class="wrapper works-wrapper">
                 <div class="container">
-                    <h2>現在準備中です</h2>
-                    <p>一部作品はYouTubeでご覧いただけます</p>
-                    <a href="https://www.youtube.com/channel/UCfJckRQCVDM2iJov3Nf7NBg" class="btn"><span class="fa fa-youtube"></span>YouTubeへ</a>
+                    <h2>＜作曲＞</h2>
+                    <div class="works">
+                        <ul>
+                            <li>作品1<br class="spbr"><a href="https://www.youtube.com/channel/UCfJckRQCVDM2iJov3Nf7NBg" class="btn-works"><span class="fa fa-youtube"></span> Listen on YouTube</a></li>
+                            <li>作品2<br class="spbr"><a href="https://www.youtube.com/channel/UCfJckRQCVDM2iJov3Nf7NBg" class="btn-works"><span class="fa fa-youtube"></span> Listen on YouTube</a></li>
+                        </ul>
+                    </div>
                 </div>
-                
+            </div>
+            <div class="wrapper works-wrapper ad">
+                <div class="container">
+                    <h2>＜編曲＞</h2>
+                    <div class="works">
+                        <p>著作権法の関係上、グレーゾーンであるため、掲載は控えさせていただきます。</p>
+                    </div>
+                </div>
             </div>
         </main>
     </body>
     <footer>
-            <p>&copy; 2022 MAMEDANA HARUTO.</p>
+        <p>&copy; 2022 <br class="spbr">MAMEDANA HARUTO.</p>
     </footer>    
 </body>
 </html>

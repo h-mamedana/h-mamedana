@@ -1,0 +1,12 @@
+/*for tablet*/
+
+/*for smartphone*/
+@media all and (max-width: 670px) {
+    .contact-wrapper {
+        margin: 75px 10px 10px 10px;
+        text-align: center;
+    }
+    .way {
+        padding: 60px 0;
+    }
+}
