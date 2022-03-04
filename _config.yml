@@ -2,5 +2,3 @@ theme: jekyll-theme-slate
 google_analytics: UA-222050982-1
 sitemap:
     path: sitemap.xml
-    template: ./sitemap.xml
-    rel: false
