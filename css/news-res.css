@@ -11,4 +11,10 @@
     .news {
         max-width: 500px;
     }
+    .title {
+        font-size: 28px;
+    }
+    .contents {
+        font-size: 16px;
+    }
 }
