@@ -3,7 +3,7 @@
 }
 
 /*for smartphone*/
-@media all and (max-width: 1000px) {
+@media all and (max-width: 670px) {
     .archive-wrapper {
         margin: 75px 10px 10px 10px;
     }
