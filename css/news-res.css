@@ -3,7 +3,7 @@
 }
 
 /*for smartphone*/
-@media all and (max-width: 1000px) {
+@media all and (max-width: 670px) {
     .news-wrapper {
         margin: 75px 10px 10px 10px;
         height: 800px;
