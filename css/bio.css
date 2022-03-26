@@ -6,11 +6,11 @@
     max-width: 1200px;
     margin: auto;
     padding: 65px 0;
+    display: flex;
+    align-items: center;
 
 }
 .prof-left {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 50px;
 }
 .prof-left img {
@@ -29,15 +29,60 @@
     padding-top: 8px;
     font-size: 15px;
 }
-.prof-right {
-    display: inline-block;
-    vertical-align: middle;
-}
 .prof-right h3 {
     font-size: 40px;
 }
 .prof-right p {
+    padding-top: 10px;
     font-size: 20px;
+    line-height: 25px;
+}
+
+.sns-wrapper {
+    margin: 0 30px 30px 30px;
+    text-align: center;
+}
+
+.sns {
+    float: left;
+    width: 25%;
+    padding: 20px 0;
+}
+
+.sns-icon {
+    position: relative;
+    width: 100px;
+    margin: auto;
+}
+.sns-icon img {
+    background-color: white;
+    width: 100px;
+    margin: auto;
+    border-radius: 50px;
+
+}
+
+.sns-icon i {
+    font-size: 50px;
+    position: absolute;
+    top: 30px;
+    left: 28px;
+    color: rgb(60, 110, 62);
+    text-shadow: #fff 2px 2px 0, #fff -2px -2px 0, #fff -2px 2px 0, #fff 2px -2px 0, #fff 0px 2px 0, #fff 0 -2px 0, #fff -2px 0 0, #fff 2px 0 0;
+}
+
+.youtube i {
+    left: 22px;
+}
+
+.twitter i {
+    left: 28px;
+}
+.snses {
+    max-width: 1200px;
+    height: 140px;
+    margin: auto;
+    /* overflow: hidden; */
 }
 
 .bio-wrapper {
@@ -77,10 +122,10 @@
     display: none;
 }
 
-.timeline-list-item .contentA, .timeline-list-item .contentB {
+.timeline-list-item .contentA, .timeline-list-item .contentB, .timeline-list-item .dummy {
     position: relative;
     width: 80%;
-    padding: 0 20px 60px 30px;
+    padding: 0 0 40px 30px;
     border-left: 1px solid #aaaaaa;
     font-size: 20px;
 }
